@@ -1,0 +1,746 @@
+/* Home */
+.intro
+{
+  padding: 0%;
+  width: 100%;
+  background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+  height: 1200px;
+}
+.sexo
+{
+  height: 500px;
+}
+.navGit
+{
+  height: 25px;
+
+}
+.navLink
+{
+  height: 25px;
+
+}
+.picIntro
+{
+  filter: drop-shadow(20px 15px 10px rgba(0, 0, 0, 0.5));
+  height: 45%;
+  width: auto;
+  position: relative;
+}
+.me
+{
+  z-index: 1;
+  padding: 10px;
+  width:600px;
+  height:100%;
+  bottom: -1.8%;
+  float: right;
+  position: absolute;
+  left: 50%;
+}
+
+.grid
+{
+  padding:260px;
+  background-image: url('../media/grid.svg');
+  background-size: 24px 24px;
+  z-index: 0;
+  opacity: 15%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 40%;
+}
+.picIntro h1
+{
+  filter: drop-shadow(20px 15px 10px rgba(0, 0, 0, 0.5));
+  padding-top: 100px;
+  padding-left: 15%;
+  z-index: 3;
+  font-size: 40px;
+  color: rgb(0, 119, 255);
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  
+}
+.picIntro h2
+{
+  filter: drop-shadow(20px 15px 10px rgba(0, 0, 0, 0.5));
+  z-index: 3;
+  font-size: 60px;
+  padding-top: 180px;
+  color: aliceblue;
+  position: absolute;
+  border-bottom: 2px solid #0077ff;
+  margin-left: 15%;
+}
+.companies
+{
+  background-color: aliceblue;
+  height: 30%;
+  width: auto;
+  position: relative;
+
+}
+.companies h1
+{
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 15%;
+  font-size: 45px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+
+}
+.companies hr
+{
+  margin: 45px;
+  border: 40px;
+}
+
+.amazing
+{
+  margin-top: 5%;
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 300px;
+  height: 20%;
+  max-width: 130px;
+  display: inline-block;
+}
+.tele
+{
+  margin-left: 70px;
+  margin-top: 5%;
+  margin-top: 10px;
+  width: 200px;
+  height: 18%;
+  max-width: 130px;
+  display: inline-block;
+}
+.covalen
+{
+  margin-left: 70px;
+  width: 180px;
+  height: 15%;
+  max-width: 330px;
+  display: inline-block;
+}
+.companies
+{
+  background-color: aliceblue;
+  height: 55%;
+  width: auto;
+  position: relative;
+}
+.companiesInfo
+{
+  position: relative;
+  height: 30%;
+  width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.companiesInfo div
+{
+  width: auto;
+  height: 65%;
+  position: relative;
+
+  justify-content: center;
+  
+}
+.companiesInfo h3
+{
+  text-align: center;
+  margin-left: 30px;
+}
+.cI
+{
+  max-width: 200px;
+  margin-right: 70px;
+  margin-left: 70px;
+  width: 150px;
+  height: 120%;
+}
+
+/* EXPERIENCE */
+.intro2
+{
+  width: 100%;
+  background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+  height: auto;
+}
+.expMenu
+{
+  display: flex;
+  height: 5%;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.btn
+{
+  justify-content: center;
+}
+#option1  {
+  margin-top: 50px;
+  display: none;
+  padding: 50px;
+  width: auto;
+  height: 95%;
+}
+
+#option2 {
+  display: none;
+  padding: 50px;
+}
+
+#carouselExampleCaptions h5
+{
+  color:#ffffff;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgba(1, 4, 68, 0.696), rgba(0, 30, 255, 0.084)); /* Cambia el color según tus preferencias */
+  margin-left: 40%;
+  margin-right: 40%;
+  
+}
+#carouselExampleCaptions p
+{
+  color:#ffffff;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgba(1, 4, 68, 0.696), rgba(0, 30, 255, 0.084)); /* Cambia el color según tus preferencias */
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+.infoCarousel
+{
+  margin-top: 30px;
+  text-align: center;
+  display: none;
+}
+.infoCarousel h3
+{
+  color:#0077ff;
+
+}
+.infoCarousel p
+{
+  color: #ffffff;
+}
+.option2
+{
+  height: auto;
+  display: inline-grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+}
+
+.o2div
+{
+  margin-left: 3%;
+  width: 100%;
+  height: max-content;
+  padding-bottom: 20%;
+}
+
+.o2divTittles
+{
+  color: #0077ff;
+
+}
+.o2div img
+{
+  float: left;
+  max-width: 100%;
+  height: 30%;
+  width: 60%;
+  margin-top: 1%;
+  margin-right: 4%;
+  border-radius: 20px;
+  border: #0077ff;
+  border-style: groove;
+}
+.o2div p
+{
+  color: #ffffff;
+  /* font-weight: bold; */
+  margin-top: 1%;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 2%;
+  height: 100%;
+
+}
+/* ABOUT */
+
+.intro3
+{
+  width: 100%;
+  display: block;
+  background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+  height: auto;
+  justify-content: center;
+  padding: 2%;
+
+}
+.aboutFirst
+{
+  border-radius: 10px;
+  background-image: url('../media/logo_white.png');
+  background-size: cover;
+  background-color: rgb(17, 17, 17);
+  padding: 2%;
+  padding-bottom: 8.5%;
+  justify-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+  /* background-color: aliceblue; */
+  height: auto;
+  background: linear-gradient(to bottom, rgba(47, 47, 47, 0.333), rgba(255, 0, 0, 0)); /* Cambia el color según tus preferencias */
+
+  
+}
+
+.aboutFirst img
+{
+  margin-top: 1%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  max-width: 100%;
+  height: 30%;
+  width: 40%;
+  float: left;
+  border-radius: 30px;
+  border: #0077ff;
+  border-style: groove;
+}
+.aboutFirst p
+{
+  color: #ffffff;
+  /* font-weight: bold; */
+  margin-top: 1%;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 2%;
+  height: auto;
+
+}
+.aboutDancing
+{
+  justify-content: center;
+}
+.aboutDancing h2
+{
+  text-align: center;
+  color: #007cff;
+}
+.aboutDancing p
+{
+  text-align: center;
+  color: #ffffff;
+}
+.aboutDancing figure
+{
+  height: auto;
+  width: auto;
+}
+.aboutDancing video
+{
+  width: 100%;
+  height: auto;
+}
+
+/* CONTACT */
+.intro4
+{
+  width: 100%;
+  display: block;
+  background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+  height: 100vh;
+  justify-content: center;
+  display: block;
+  padding: 3%;
+
+}
+.tableNetworks
+{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 60px;
+}
+.center_div
+{
+  text-align: center;
+  width: auto;
+
+}
+#fieldMail
+{
+  width: 40%;
+}
+#fieldMsg
+{
+  width: 80%;
+}
+
+/* footer */
+.end
+{
+  background-color: rgb(3, 3, 3);
+  height: 50px;
+  align-items: center;
+}
+.end p
+{
+  padding-top: 10px;
+  bottom: 100px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 1200px)
+{
+  .intro
+  {
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+    height: 1200px;
+  }
+  .picIntro
+  {
+    overflow: hidden;
+    height: 45%;
+    width: auto;
+    position: relative;
+  }
+    .picIntro h1
+  {
+    padding-top: 100px;
+    padding-left: 10%;
+    z-index: 3;
+    font-size: 40px;
+    color: rgb(0, 119, 255);
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    
+  }
+  .picIntro h2
+  {
+    z-index: 3;
+    font-size: 60px;
+    padding-top: 180px;
+    color: aliceblue;
+    position: absolute;
+    border-bottom: 2px solid #0077ff;
+    margin-left: 10%;
+  }
+  .me
+  {
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px;
+    width:600px;
+    height:100%;
+    bottom: -1.8%;
+    float: right;
+    position: absolute;
+    left: 40%;
+  }
+  .companies
+  {
+    background-color: aliceblue;
+    height: 55%;
+    width: auto;
+    position: relative;
+  }
+  .tele
+  {
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 15%;
+    max-width: 100px;
+    display: inline-block;
+  }
+  .covalen
+  {
+    margin-left: 140px;
+    width: 180px;
+    height: 17%;
+    max-width: 330px;
+    display: inline-block;
+  }
+  .companiesInfo
+  {
+    position: relative;
+    height: 30%;
+    width: auto;
+    position: relative;
+    display: inline-block;
+  }
+  .cI
+  {
+    max-width: 150px;
+    margin-right: 10px;
+    margin-left: 70px;
+    width: 150px;
+    height: 120%;
+    display: inline-block;
+  }
+  .companiesInfo div
+  {
+    left: 2px;
+    width: auto;
+    height: 55%;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+  }
+  .companiesInfo h3
+  {
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 803px)
+{
+  .intro
+  {
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+    height: 1500px;
+  }
+  .picIntro
+  {
+    height: 25%;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .me
+  {
+    z-index: 3!important;
+    height:100%;
+    position: absolute;
+    width: auto;
+    left: 50%;
+  }
+  .grid
+  {
+    position: absolute;
+    z-index: 0;
+    left: 40%;
+    padding: 249px;
+  }
+  
+  .companies
+  {
+    background-color: aliceblue;
+    height: 75%;
+    width: auto;
+    position: relative;
+  }
+
+  .companiesInfo div
+  {
+    left: 2px;
+    width: auto;
+    height: 60%;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+    padding-bottom: 30px;
+  }
+  /* EXPERIENCE */
+
+  .o2div img
+{
+  max-width: 100%;
+  height: 40%;
+  width: 100%;
+  margin-top: 1%;
+  margin-right: 4%;
+  border-radius: 20px;
+  border: #0077ff;
+  border-style: groove;
+}
+
+  /* about */
+  .aboutFirst img
+{
+  padding: 2%;
+  margin-left: -0.7%;
+  height: 30%;
+  width: auto;
+  max-width: 100%;
+}
+
+  /* contact */
+#fieldMail
+{
+  width: 70%;
+}
+#fieldMsg
+{
+  width: 100%;
+}
+
+}
+@media screen and (max-width: 767px)
+{
+  .infoCarousel
+  {
+
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 520px)
+{
+  .intro
+  {
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+    height: 1080px;
+  }
+  .picIntro
+  {
+    height: 25%;
+    width: auto;
+    position: relative;
+
+  }
+  .me
+  {
+  z-index: 1;
+  padding: 10px;
+  width:auto;
+  height:100%;
+  bottom: -1.8%;
+  position: absolute;
+  }
+  .picIntro h1
+  {
+    padding-top: 100px;
+    padding-left: 10%;
+    z-index: 3;
+    font-size: 20px;
+    color: rgb(0, 119, 255);
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    
+  }
+  .picIntro h2
+  {
+    z-index: 3;
+    font-size: 40px;
+    padding-top: 120px;
+    color: aliceblue;
+    position: absolute;
+    border-bottom: 2px solid #0077ff;
+    margin-left: 10%;
+  }
+  .workExp
+  {
+    display: block;
+
+  }
+    .amazing
+  {
+    margin-left: 20%;
+    width: 20%;
+    height: 30%;
+
+  
+  }
+  .tele
+  {
+    width: 20%;
+    height: 30%;
+    margin: 0;
+
+  }
+  .covalen
+  {
+    width: 20%;
+    margin: 0;
+    height: 30%;
+  
+  }
+  .companies
+  {
+    background-color: aliceblue;
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+  .companiesInfo
+  {
+    background-color: aliceblue;
+    height: 60%;
+    width: auto;
+    position: relative;
+    display: block;
+  }
+
+  .companiesInfo div
+  {
+    left: -38px;
+    width: auto;
+    height: min-content;
+    position: relative;
+    margin: 10px;
+    display: inline-flex;
+
+  }
+  .companiesInfo h3
+  {
+    margin-left: opx;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+  }
+  .cI
+  {
+    margin-right: 10px;
+    margin-left: 70px;
+    width: 35%;
+    height: 40%;
+  }
+  .end
+  {
+    background-color: rgb(3, 3, 3);
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+  .end p
+  {
+    justify-self: center;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding-top: 8%;
+    bottom: 0px;
+  }
+
+}
