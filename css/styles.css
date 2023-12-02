@@ -6,10 +6,7 @@
   background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
   height: 1200px;
 }
-.sexo
-{
-  height: 500px;
-}
+
 .navGit
 {
   height: 25px;
@@ -32,7 +29,7 @@
   z-index: 1;
   padding: 10px;
   width:600px;
-  height:100%;
+  height:auto;
   bottom: -1.8%;
   float: right;
   position: absolute;
@@ -267,7 +264,6 @@
 .o2div p
 {
   color: #ffffff;
-  /* font-weight: bold; */
   margin-top: 1%;
   font-family: var(--bs-font-sans-serif);
   font-size: 20px;
@@ -307,6 +303,12 @@
 
   
 }
+.aboutFirst h1
+{
+  text-align: center;
+  color: #0077ff;
+}
+
 
 .aboutFirst img
 {
@@ -385,11 +387,15 @@
   width: auto;
 
 }
-#fieldMail
+#name
 {
   width: 40%;
 }
-#fieldMsg
+#email
+{
+  width: 40%;
+}
+#msg
 {
   width: 80%;
 }
@@ -593,14 +599,18 @@
 }
 
   /* contact */
-#fieldMail
-{
-  width: 70%;
-}
-#fieldMsg
-{
-  width: 100%;
-}
+  #name
+  {
+    width: 70%;
+  }
+  #email
+  {
+    width: 70%;
+  }
+  #msg
+  {
+    width: 100%;
+  }
 
 }
 @media screen and (max-width: 767px)
@@ -713,7 +723,6 @@
   }
   .companiesInfo h3
   {
-    margin-left: opx;
     display: inline-block;
     font-size: 20px;
     text-align: left;
