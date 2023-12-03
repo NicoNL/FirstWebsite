@@ -261,6 +261,17 @@
   border: #0077ff;
   border-style: groove;
 }
+.o2div iframe
+{
+  float: left;
+  margin-right: 4%;
+  border-radius: 20px;
+  border: #0077ff;
+  border-style: groove;
+  width: 720px;
+  height: 400px;
+  max-height: max-content;
+}
 .o2div p
 {
   color: #ffffff;
@@ -584,6 +595,17 @@
   border: #0077ff;
   border-style: groove;
 }
+.o2div iframe
+{
+  float: none;
+  padding: 10px;
+  border-radius: 20px;
+  border: #0077ff;
+  border-style: groove;
+  width: 420px;
+  height: 500px;
+  max-height: max-content;
+}
 
   /* about */
   .aboutFirst
@@ -743,6 +765,19 @@
     width: 35%;
     height: 40%;
   }
+
+  /* EXPERIENCE */
+  .o2div iframe
+{
+  float: none;
+  padding: 10px;
+  border-radius: 20px;
+  border: #0077ff;
+  border-style: groove;
+  width: 320px;
+  height: 500px;
+  max-height: max-content;
+}
   .end
   {
     background-color: rgb(3, 3, 3);
