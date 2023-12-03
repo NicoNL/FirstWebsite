@@ -298,10 +298,9 @@
   margin-right: 10%;
   width: auto;
   /* background-color: aliceblue; */
-  height: auto;
+  heigh
+  height: min-content;
   background: linear-gradient(to bottom, rgba(47, 47, 47, 0.333), rgba(255, 0, 0, 0)); /* Cambia el color según tus preferencias */
-
-  
 }
 .aboutFirst h1
 {
@@ -593,7 +592,7 @@
 {
   padding: 2%;
   margin-left: -0.7%;
-  height:280px;
+  height: 30%;
   width: auto;
   max-width: 100%;
 }
