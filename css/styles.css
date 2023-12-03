@@ -367,7 +367,7 @@
   width: 100%;
   display: block;
   background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
-  height: 100vh;
+  height: auto;
   justify-content: center;
   display: block;
   padding: 3%;
@@ -385,7 +385,7 @@
 {
   text-align: center;
   width: auto;
-
+  margin-bottom: 5%;
 }
 #name
 {
@@ -593,7 +593,7 @@
 {
   padding: 2%;
   margin-left: -0.7%;
-  height: 30%;
+  height:280px;
   width: auto;
   max-width: 100%;
 }
@@ -611,6 +611,11 @@
   {
     width: 100%;
   }
+  .center_div
+{
+  margin-bottom: 54%;
+
+}
 
 }
 @media screen and (max-width: 767px)
