@@ -297,8 +297,6 @@
   margin-left: 10%;
   margin-right: 10%;
   width: auto;
-  /* background-color: aliceblue; */
-  heigh
   height: min-content;
   background: linear-gradient(to bottom, rgba(47, 47, 47, 0.333), rgba(255, 0, 0, 0)); /* Cambia el color según tus preferencias */
 }
@@ -588,6 +586,13 @@
 }
 
   /* about */
+  .aboutFirst
+  {
+    padding: 2%;
+    height: 1000px;
+    width: auto;
+    max-width: 100%;
+  }
   .aboutFirst img
 {
   padding: 2%;
