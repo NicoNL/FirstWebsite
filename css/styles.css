@@ -374,7 +374,10 @@
 {
   width: 100%;
   display: block;
-  background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important;
+  /* background: linear-gradient(to bottom,rgb(33, 37, 41), rgb(1, 1, 1))!important; */
+  background-image: url('../media/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
   height: auto;
   justify-content: center;
   display: block;
@@ -597,6 +600,7 @@
 }
 .o2div iframe
 {
+  margin-top: 2%;
   float: none;
   padding: 10px;
   border-radius: 20px;
